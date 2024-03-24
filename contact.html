@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+</head>
+
+<body>
+    
+    <header>
+        <h1>Maharaja ranjit singh </h1>
+       
+    </header>
+
+    
+    <nav class="nav">
+        <ul class="ul">
+          <li><a href="index.html">Biography</a></li>
+          <li><a id="gallery" href="gallery.html">Gallery</a>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="media.html">Media</a></li>
+        </ul>
+    </nav>
+
+       <h2>form</h2>
+        <form id="contactForm" action="#" method="post">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" name="fullName" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Format: 123-456-7890" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <label for="birthdate">Date of Birth</label>
+            <input type="date" id="birthdate" name="birthdate">
+            <label for="reason">Reason for Contact</label>
+            <select id="reason" name="reason" required>
+                <option value="">Select a reason</option>
+                <option value="question">Question</option>
+                <option value="feedback">Feedback</option>
+                <option value="support">Support</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    
+    
+
+
+
+        <section class="quotes">
+            
+            <h2 id="quotes">Quotes</h2>
+            
+            <q cite="https://www.bing.com/images/search?q=maharaja+ranjit+singh+quotes&qpvt=maharaja+ranjit+singh+quotes&FORM=IGRE">God intended me to look upon all religions with one eye; that is why he took away the light from the other.</q>
+            <br>
+            
+        </section>
+    </main>
+
+    
+    <div class="aside">
+        <aside>
+        
+            <h2>Additional Information</h2>
+            
+            <ul>
+                <li><a href="https://www.britannica.com/biography/Ranjit-Singh-Sikh-maharaja" >Link 1</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Ranjit_Singh" >Link 2</a></li>
+                
+            </ul>
+        </aside>
+</div>
+
+    
+<footer>
+    <p>&copy;Prabhnoor kaur 2024</p>
+</footer>
+</body>
+</html>
